@@ -24,7 +24,7 @@ class FirstTest {
 	@DisplayName("My 1st JUnit 5 test! 😎")
 	void myFirstTest(TestInfo testInfo) {
 		Calculator calculator = new Calculator();
-		assertEquals(2, calculator.add(1, 1), "1 + 1 should equal 2");
+		assertEquals(11, calculator.add(1, 1), "1 + 1 should equal 11");
 		assertEquals("My 1st JUnit 5 test! 😎", testInfo.getDisplayName(), () -> "TestInfo is injected correctly");
 	}
 
